@@ -4,6 +4,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 HOST = "10.184.187.96"
 PORT = 8000
 
+
 class HTTP(BaseHTTPRequestHandler):
 
     def do_GET(self):
